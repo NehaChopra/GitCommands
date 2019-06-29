@@ -10,7 +10,17 @@ Collection of Git Commands
 
 
 ## <a name='snapshot'>Snapshot, Staged, Working Directory</a>
-
+|               Command                           |                             Explanation                   |
+| ------------------------------------------------| ----------------------------------------------------------|
+| git status                                      | Initialize git project                                    |
+| git add [file-name]                             | Clone git repository from Remote to local                 |
+| git add [file-name]                             | Clone git repository from Remote to local                 |
+| git add -A OR git add .                            | Clone git repository from Remote to local                 |
+| git commit -m "[commit message]"                            | Clone git repository from Remote to local                 |
+| git rm -r [file-name]                            | Clone git repository from Remote to local                 |
+| git add [file-name]                             | Clone git repository from Remote to local                 |
+| git add [file-name]                             | Clone git repository from Remote to local                 |
+| git add [file-name]                             | Clone git repository from Remote to local                 |
 
 
 ## <a name='branching'>Branching</a>
