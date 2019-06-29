@@ -3,8 +3,10 @@ Collection of Git Commands
 
 
 ## <a name='git'>Creating GIT Projects</a>
-
-
+| Command                           | Explanation                                               |
+| ----------------------------------| ----------------------------------------------------------|
+| git init                          | Initialixe git project                                    |
+| git clone                         | Clone git repository from Remote to local                 |
 
 
 ## <a name='snapshot'>Snapshot, Staged, Working Directory</a>
