@@ -61,33 +61,7 @@ Collection of Git Commands
 | git log --graph                                 | Clone git repository from Remote to local                 |   
 
 ## <a name='pull&push'>Pull and Push</a>
-|               Command                           |                             Explanation                   |
-| ------------------------------------------------| ----------------------------------------------------------|
-| git log                                         | Initialize git project                                    |
-| git reflog show                                 | Clone git repository from Remote to local                 |
-| git log --summary                               | Clone git repository from Remote to local                 |
-| git log --date-order --all                      | Clone git repository from Remote to local                 |
-| git log --all                                   | Clone git repository from Remote to local                 |
-| git log -3                                      | Clone git repository from Remote to local                 |
-| git log --author <name>                         | Clone git repository from Remote to local                 |
-| git log --committer <name>                      | Clone git repository from Remote to local                 |
-| git log --after "2014-02-01" --before "2014-02-02"| Clone git repository from Remote to local               |
-| git log -p                                      | Clone git repository from Remote to local                 |
-| git log --stat                                  | Clone git repository from Remote to local                 | 
-| git log --graph                                 | Clone git repository from Remote to local                 | 
+
 
 ## <a name='resetting'>Resetting commits</a>
-|               Command                           |                             Explanation                   |
-| ------------------------------------------------| ----------------------------------------------------------|
-| git log                                         | Initialize git project                                    |
-| git reflog show                                 | Clone git repository from Remote to local                 |
-| git log --summary                               | Clone git repository from Remote to local                 |
-| git log --date-order --all                      | Clone git repository from Remote to local                 |
-| git log --all                                   | Clone git repository from Remote to local                 |
-| git log -3                                      | Clone git repository from Remote to local                 |
-| git log --author <name>                         | Clone git repository from Remote to local                 |
-| git log --committer <name>                      | Clone git repository from Remote to local                 |
-| git log --after "2014-02-01" --before "2014-02-02"| Clone git repository from Remote to local               |
-| git log -p                                      | Clone git repository from Remote to local                 |
-| git log --stat                                  | Clone git repository from Remote to local                 | 
-| git log --graph                                 | Clone git repository from Remote to local                 | 
+
