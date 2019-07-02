@@ -63,7 +63,7 @@ Collection of Git Commands
 ## <a name='pull&push'>Pull and Push</a>
 |               Command                           |                             Explanation                   |
 | ------------------------------------------------| ----------------------------------------------------------|
-| git log                                         | Information of previous committed commits                 |
+| git                                         | Information of previous committed commits                 |
 | git reflog show                                 | Commits with hash, heads and messages                     |
 | git log --summary                               | Detailed Information of previous committed commits        |
 | git log --date-order --all                      | Ordered previous committed commits                        |
@@ -76,7 +76,13 @@ Collection of Git Commands
 | git log --stat                                  | Commits with files changes                                | 
 | git log --graph                                 | Graph representation of commits                           |  
 
+  
 ## <a name='resetting'>Resetting commits</a>
+|               Command                           |                             Explanation                   |
+| ------------------------------------------------| ----------------------------------------------------------|
+| git reset HEAD~noOfCommits                      | Reset no of commits from head to reset changes            |
+| git rebase -i HEAD~noOfCommits                  | Squash a commit to a number                               |
+| git checkout <commitHash>                       | Detached head, move to a commit                           |
 
 ## <a name='config'>Config Changes</a>
 |               Command                           |                             Explanation                   |
