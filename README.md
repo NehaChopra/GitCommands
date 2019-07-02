@@ -47,18 +47,18 @@ Collection of Git Commands
 ## <a name='logging'>Logging</a>
 |               Command                           |                             Explanation                   |
 | ------------------------------------------------| ----------------------------------------------------------|
-| git log                                         | Initialize git project                                    |
-| git reflog show                                 | Clone git repository from Remote to local                 |
-| git log --summary                               | Clone git repository from Remote to local                 |
-| git log --date-order --all                      | Clone git repository from Remote to local                 |
-| git log --all                                   | Clone git repository from Remote to local                 |
-| git log -3                                      | Clone git repository from Remote to local                 |
-| git log --author <name>                         | Clone git repository from Remote to local                 |
-| git log --committer <name>                      | Clone git repository from Remote to local                 |
-| git log --after "2014-02-01" --before "2014-02-02"| Clone git repository from Remote to local               |
-| git log -p                                      | Clone git repository from Remote to local                 |
-| git log --stat                                  | Clone git repository from Remote to local                 | 
-| git log --graph                                 | Clone git repository from Remote to local                 |   
+| git log                                         | Information of previous committed commits                 |
+| git reflog show                                 | Commits with hash, heads and messages                     |
+| git log --summary                               | Detailed Information of previous committed commits        |
+| git log --date-order --all                      | Ordered previous committed commits                        |
+| git log --all                                   | All previous committed commits                            |
+| git log -3                                      | Last 3 previous committed commits                         |
+| git log --author <name>                         | Previous committed commits by author                      |
+| git log --committer <name>                      | Previous committed commits by committer                   |
+| git log --after "2019-02-01" --before "2019-02-02"| Date range for committed commits                        |
+| git log -p                                      | Commits with file diff changes                            |
+| git log --stat                                  | Commits with files changes                                | 
+| git log --graph                                 | Graph representation of commits                           |   
 
 ## <a name='pull&push'>Pull and Push</a>
 
