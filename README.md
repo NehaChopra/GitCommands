@@ -61,7 +61,25 @@ Collection of Git Commands
 | git log --graph                                 | Graph representation of commits                           |   
 
 ## <a name='pull&push'>Pull and Push</a>
-
+|               Command                           |                             Explanation                   |
+| ------------------------------------------------| ----------------------------------------------------------|
+| git log                                         | Information of previous committed commits                 |
+| git reflog show                                 | Commits with hash, heads and messages                     |
+| git log --summary                               | Detailed Information of previous committed commits        |
+| git log --date-order --all                      | Ordered previous committed commits                        |
+| git log --all                                   | All previous committed commits                            |
+| git log -3                                      | Last 3 previous committed commits                         |
+| git log --author <name>                         | Previous committed commits by author                      |
+| git log --committer <name>                      | Previous committed commits by committer                   |
+| git log --after "2019-02-01" --before "2019-02-02"| Date range for committed commits                        |
+| git log -p                                      | Commits with file diff changes                            |
+| git log --stat                                  | Commits with files changes                                | 
+| git log --graph                                 | Graph representation of commits                           |  
 
 ## <a name='resetting'>Resetting commits</a>
 
+## <a name='config'>Config Changes</a>
+|               Command                           |                             Explanation                   |
+| ------------------------------------------------| ----------------------------------------------------------|
+| git config --global username "your username"    | Updating .gitConfig with username                         |
+| git config --global password "your password"    | Updating .gitConfig with password                         |
