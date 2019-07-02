@@ -63,18 +63,16 @@ Collection of Git Commands
 ## <a name='pull&push'>Pull and Push</a>
 |               Command                           |                             Explanation                   |
 | ------------------------------------------------| ----------------------------------------------------------|
-| git                                         | Information of previous committed commits                 |
-| git reflog show                                 | Commits with hash, heads and messages                     |
-| git log --summary                               | Detailed Information of previous committed commits        |
-| git log --date-order --all                      | Ordered previous committed commits                        |
-| git log --all                                   | All previous committed commits                            |
-| git log -3                                      | Last 3 previous committed commits                         |
-| git log --author <name>                         | Previous committed commits by author                      |
-| git log --committer <name>                      | Previous committed commits by committer                   |
-| git log --after "2019-02-01" --before "2019-02-02"| Date range for committed commits                        |
-| git log -p                                      | Commits with file diff changes                            |
-| git log --stat                                  | Commits with files changes                                | 
-| git log --graph                                 | Graph representation of commits                           |  
+| git push origin [branch-name]                   | Push a branch to remote repository                        |
+| git push -u origin [branch-name]                | Push changes to remote repository and remember the branch |
+| git push                                        | Push changes to remote repository in remembered branch    |
+| git push origin --delete [branch-name]          | Delete a remote branch                                    |
+| git pull                                        | Update local repository                                   |
+| git pull origin [branch-name]                   | Pull changes for a branch                         |
+| git remote add origin ssh://git@github.com/[username]/[repository-name].git| Add a remote repository        |
+| git remote set-url origin ssh://git@github.com/[username]/[repository-name].git| Set a repository's origin branch to SSH   |
+| git push -f origin [branch-name]                | Force push to a branch, update commit history             |
+| git fetch                                       | Fetch the remote branches                                 |
 
   
 ## <a name='resetting'>Resetting commits</a>
