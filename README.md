@@ -1,4 +1,4 @@
-# GitCommands
+# Gitty Git
 Collection of Git Commands
 
 ## <a name='git'>Creating GIT Projects</a>
