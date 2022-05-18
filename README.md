@@ -88,5 +88,21 @@ Collection of Git Commands
 | git config --global username "your username"    | Updating .gitConfig with username                         |
 | git config --global password "your password"    | Updating .gitConfig with password                         |
 
+## <a name='alias'>Alias</a>
+|               Command                           |                             Explanation                   |
+| ------------------------------------------------| ----------------------------------------------------------|
+| git config --global alias.ph 'push'             |                                                           |
+| git config --global alias.pl 'pull              |                                                           |
+| git config --global alias.st 'status -sb'       |                                                           |
+| git config --global alias.cm 'commit -m'        |                                                           |
+| git config --global alias.rv 'remote -v'        |                                                           |
+| git config --global alias.d 'diff'              |                                                           |
+| git config --global alias.co checkout           |                                                           |
+| git config --global alias.br branch             |                                                           |
+| git config --global alias.ci commit             |                                                           |  
+|git config --global alias.gl 'config --global -l'|                                                           |  
+
+  
+
 
 Worth Reading : https://opensource.com/article/20/11/git-aliases
