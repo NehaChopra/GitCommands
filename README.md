@@ -87,3 +87,6 @@ Collection of Git Commands
 | ------------------------------------------------| ----------------------------------------------------------|
 | git config --global username "your username"    | Updating .gitConfig with username                         |
 | git config --global password "your password"    | Updating .gitConfig with password                         |
+
+
+Worth Reading : https://opensource.com/article/20/11/git-aliases
